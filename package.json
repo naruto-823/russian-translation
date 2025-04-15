@@ -1,0 +1,18 @@
+{
+    "name": "russian-translator",
+    "version": "1.0.0",
+    "description": "俄语到中文翻译工具",
+    "main": "translator.js",
+    "scripts": {
+        "start": "node translator.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "openai": "^4.28.0",
+        "dotenv": "^16.0.3"
+    },
+    "devDependencies": {
+        "jest": "^29.5.0",
+        "jest-mock": "^29.5.0"
+    }
+}
